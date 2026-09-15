@@ -1,59 +1,42 @@
-# ¡Hola! Soy Adrian 👋
+# Adrián Viza
 
-Ingeniero de Sistemas egresado de la **Universidad Nacional José Faustino Sánchez Carrión** (Huacho, Perú).
+Ingeniero de Sistemas por la Universidad Nacional José Faustino Sánchez Carrión, en Huacho, Perú.
 
-Construyo software que resuelve problemas concretos, con dos obsesiones: la **inteligencia artificial aplicada** —modelos que alguien usa para decidir algo, no solo para reportar una métrica— y los sistemas que **funcionan sin depender de la nube**, porque en buena parte del Perú la conectividad no es un supuesto seguro.
+Casi todo lo que hay aquí salió de cursos de la carrera o de cosas que me dio por probar: modelos de predicción con datos públicos peruanos, un par de apps en Flutter y varios experimentos con modelos de lenguaje corriendo en la propia máquina.
 
-🔭 Actualmente busco mi primera posición como desarrollador o ingeniero de datos.
+## Proyectos
 
----
+### Datos y machine learning
 
-## 🚀 Proyectos destacados
+- **[agroprecio-web](https://github.com/vizadrex/agroprecio-web)** — Pronóstico de precios de cultivos peruanos a partir de datos del SISAP-MIDAGRI, el BCRP y clima satelital. Combina seis modelos y publica el resultado como una página estática. [Demo](https://vizadrex.github.io/agroprecio-web/)
+- **[casagrande-analytics](https://github.com/vizadrex/casagrande-analytics)** — Predicción del desempeño financiero de Casa Grande S.A.A. a partir del precio del azúcar. Scraping, pipeline ETL, comparación de modelos y reportes en PDF y Excel.
+- **[agrobiometrik](https://github.com/vizadrex/agrobiometrik)** — App en Flutter que identifica animales de granja con la cámara. El modelo corre en el propio teléfono con TensorFlow Lite, sin conexión.
+- **[clustering-unjfsc](https://github.com/vizadrex/clustering-unjfsc)** — Agrupamiento de estudiantes de la UNJFSC en perfiles de comportamiento, para detectar riesgo académico.
 
-### Machine learning aplicado
+### Modelos de lenguaje en local
 
-| Proyecto | Qué hace | Stack |
-|---|---|---|
-| **[agroprecio-web](https://github.com/vizadrex/agroprecio-web)** · [demo ▶](https://vizadrex.github.io/agroprecio-web/) | Pronostica el precio de cultivos peruanos hasta 365 días con un ensamble de 6 modelos, ponderado por horizonte y validado walk-forward. Solo con datos abiertos oficiales. | XGBoost · Prophet · SISAP-MIDAGRI |
-| **[casagrande-analytics](https://github.com/vizadrex/casagrande-analytics)** | Predice el desempeño financiero de la mayor azucarera del Perú: scraping oficial, pipeline ETL, comparación de modelos y reportes automáticos. | FastAPI · scikit-learn · XGBoost |
-| **[agrobiometrik](https://github.com/vizadrex/agrobiometrik)** | Identifica animales de granja por su apariencia con la cámara del teléfono, 100% offline y sin aretes físicos. | Flutter · TensorFlow Lite |
-| **[clustering-unjfsc](https://github.com/vizadrex/clustering-unjfsc)** | Detecta riesgo académico agrupando a 12,500 estudiantes en perfiles de comportamiento. | Flask · scikit-learn · Plotly |
+- **[biblioteca-inteligente-webllm](https://github.com/vizadrex/biblioteca-inteligente-webllm)** — Gestor de biblioteca con un asistente que corre dentro del navegador con WebGPU, sin servidor.
+- **[notespass](https://github.com/vizadrex/notespass)** — Escritorio con ventanas, notas y reproductor de música. Un modelo de Ollama recibe instrucciones en lenguaje natural y devuelve comandos en JSON.
+- **[chat-ia-local](https://github.com/vizadrex/chat-ia-local)** — Interfaz de chat para los modelos que tengas instalados en Ollama.
 
-### IA local — sin nube, sin API keys
+### Seguridad y gobierno de TI
 
-| Proyecto | Qué hace | Stack |
-|---|---|---|
-| **[biblioteca-inteligente-webllm](https://github.com/vizadrex/biblioteca-inteligente-webllm)** | Un agente que corre **dentro del navegador** con WebGPU y ejecuta acciones reales sobre el inventario. | React · WebLLM · Llama 3.2 |
-| **[notespass](https://github.com/vizadrex/notespass)** | Escritorio virtual con ventanas, notas y música, controlado por un LLM local que responde con un contrato JSON estricto. | React · TS · Ollama |
-| **[chat-ia-local](https://github.com/vizadrex/chat-ia-local)** | Chat tipo ChatGPT para modelos de Ollama, con streaming y detección automática de modelos. | React |
-
-### Gobierno de TI y ciberseguridad
-
-| Proyecto | Qué hace | Stack |
-|---|---|---|
-| **[cobit-control-center](https://github.com/vizadrex/cobit-control-center)** | Centro de operaciones de TI simulado donde COBIT 2019 se ve funcionando: creas un incidente y el tablero de gobierno lo mide al instante. | React · TS · Zustand |
-| **[simulador-iso-27032](https://github.com/vizadrex/simulador-iso-27032)** · [demo ▶](https://vizadrex.github.io/simulador-iso-27032/) | Perímetro clásico (2012) vs. Zero Trust (2023), con topología animada y consola SIEM en vivo. | JavaScript puro |
-| **[sniffer-red](https://github.com/vizadrex/sniffer-red)** | Detección de ARP spoofing y escaneos de puertos en tiempo real, con pruebas sobre paquetes simulados. | Python · Scapy |
+- **[cobit-control-center](https://github.com/vizadrex/cobit-control-center)** — Centro de operaciones de TI simulado para una exposición sobre COBIT 2019. Los indicadores de gobierno se calculan con lo que va pasando en los módulos de gestión.
+- **[simulador-iso-27032](https://github.com/vizadrex/simulador-iso-27032)** — Comparación visual entre el enfoque perimetral de ISO 27032:2012 y el de Zero Trust de la versión 2023. [Demo](https://vizadrex.github.io/simulador-iso-27032/)
+- **[sniffer-red](https://github.com/vizadrex/sniffer-red)** — Sniffer en Python que detecta ARP spoofing y escaneos de puertos.
 
 ### Salud
 
-| Proyecto | Qué hace | Stack |
-|---|---|---|
-| **[glucocheck](https://github.com/vizadrex/glucocheck)** | Control diario de diabetes: glucosa, medicación y recordatorios, todo local en el teléfono. | Flutter · Riverpod |
+- **[glucocheck](https://github.com/vizadrex/glucocheck)** — App para llevar el control diario de la diabetes: glucosa, medicación, hábitos y citas médicas. Los datos se quedan en el teléfono.
 
----
+## Herramientas
 
-## 🛠️ Tecnologías
+Trabajo sobre todo con Python, TypeScript, Dart y SQL.
 
-**Lenguajes:** Python · TypeScript / JavaScript · Dart · SQL
-**Datos y ML:** scikit-learn · XGBoost · Prophet · pandas · TensorFlow Lite
-**Web:** React · FastAPI · Flask · Vite
-**Móvil:** Flutter (BLoC, Riverpod)
-**IA local:** Ollama · WebLLM · WebGPU
-**Otros:** SQLite · Git · Playwright
+Para datos uso scikit-learn, XGBoost, Prophet y pandas; para web, React, FastAPI y Flask; para móvil, Flutter; y para modelos locales, Ollama y WebLLM.
 
----
+## Contacto
 
-## 📫 Contacto
+vizadrex@gmail.com
 
-✉️ **vizadrex@gmail.com** · 📍 Huacho, Perú
+Estoy buscando trabajo como desarrollador o en el área de datos.
